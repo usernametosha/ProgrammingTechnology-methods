@@ -1,0 +1,32 @@
+.fileUse {
+    width:300px;
+    height: 300px;
+}
+
+.Use {
+    width:15px;
+    height: 15px;
+}
+a.button16 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1em;
+    outline: none;
+    border-radius: 1px;
+  }
+  a.button16:hover {
+    background-image:
+     radial-gradient(1px 45% at 0% 50%, rgba(0,0,0,.6), transparent),
+     radial-gradient(1px 45% at 100% 50%, rgba(0,0,0,.6), transparent); 
+  }
+  a.button16:active {
+    background-image:
+     radial-gradient(45% 45% at 50% 100%, rgba(255,255,255,.9), rgba(255,255,255,0)),
+     linear-gradient(rgba(255,255,255,.4), rgba(255,255,255,.3));
+    box-shadow:
+     inset rgba(162,95,42,.4) 0 0 0 1px,
+     inset rgba(255,255,255,.9) 0 0 1px 3px;
+  }
+  a.tyutdf{
+    text-align:center;
+  }
